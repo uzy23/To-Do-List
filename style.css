@@ -1,0 +1,179 @@
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     font-style: normal;
+ }
+ html{
+     font-size: 62.5%;
+ }
+ body{
+     background-image: linear-gradient( 90deg,  #454d51,#153543);
+     font-family: sans-serif; 
+ }
+ .outerDiv{
+     display: block;
+     width: 40%;
+     margin-inline: auto;
+     margin-top: 13rem;
+ }
+ div h1{
+     font-size: 6vw;
+     color: #ffe0db;
+     font-weight: 400;
+     margin-bottom: .4em;
+     margin-left: 1em;
+ }
+ span{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     text-align: center;
+ }
+ span input{
+     height: 8dvh;
+     background-color: #181a1a;
+     border: none;
+     width: 80%;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     padding: 1em;
+     color: white;
+ }
+ span button{
+     height: 8dvh;
+     background-color: #ffece8;
+     width: 20%;
+     border: none;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+ }
+ p{
+     color: #ffe0db;
+     font-size: 3vw;
+     font-weight: 600;
+     margin-top: 2em;
+     margin-left: 2em;
+ }
+ .taskContainer{
+     /* display: flex; */
+     margin-top: 3em;
+     /* border: 1px solid #ffe0db ; */
+     /* flex-wrap: wrap; */
+ }
+ .taskContainer li{
+     display: flex;
+     color: #ffe0db;
+     font-size: 2vw;
+     font-weight: 600;
+     width: 100%;
+     margin-top: .4em;
+ }
+ .taskLi>div{
+     gap: .5em;
+     display: flex;
+     border: 1px solid #ffe0db;
+     width: 100%;
+     padding-block: .4em;
+     padding-inline: .4em;
+ }
+ .taskLi label input{
+     border: none;
+     border-radius: 100%;
+ }
+ .taskLi img{
+     height: 1.5em;
+     width: 2em;
+     cursor: pointer;
+ }
+ .taskLi img:hover{
+     height: 2em;
+     width: 2.6em;
+ }
+ @media (max-width:1300px){
+     h1{
+         font-size: 30vw;
+     }
+     span input{
+         height: 2dvh;
+         font-size: 5vw;
+     }
+     span button{
+         font-size: 10vw;
+         height: 2dvh;
+     }
+     p{
+         font-size: 2vw;
+     }
+     .realDate{
+         font-size: 4vw;
+         width: 100%;
+         margin-inline: auto;
+     }
+ }
+ @media (max-width:1000px) {
+     h1{
+         font-size: 30vw;
+     }
+     span input{
+         height: 6dvh;
+         font-size: 2vw;
+     }
+     span button{
+         font-size: 2vw;
+         height: 6dvh;
+     }
+     p{
+         font-size: 2vw;
+     }
+     .realDate{
+         font-size: 4vw;
+         width: 100%;
+         margin-inline: auto;
+     }
+ }
+ @media (max-width:400px) {
+     h1{
+         font-size: 15vw;
+     }
+     span input{
+         height: 4dvh;
+         font-size: 3vw;
+     }
+     span button{
+         font-size: 3vw;
+         height: 4dvh;
+     }
+     p{
+         font-size: 2vw;
+     }
+     .realDate{
+         font-size: 4vw;
+         width: 100%;
+         margin-inline: auto;
+     }
+ }
+ @media (max-width:618px){
+     h1{
+         font-size: 15vw;
+     }
+     span input{
+         height: 4dvh;
+         font-size: 3vw;
+     }
+     span button{
+         font-size: 3vw;
+         height: 4dvh;
+     }
+     p{
+         font-size: 2vw;
+     }
+     .realDate{
+         font-size: 4vw;
+         width: 100%;
+         margin-inline: auto;
+     }
+ }
+ 
